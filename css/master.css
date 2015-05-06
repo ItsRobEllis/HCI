@@ -1,3 +1,8 @@
-#wrapper {
+body {
   font-family: 'Open Sans', sans-serif;
+}
+
+#Wrapper {
+  width: 960px
+  height: 768px;
 }
