@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     function hideAll(){
+        //Fades Out all articles
         $(".Article1").fadeOut();
         $(".Article2").fadeOut();
         $(".Article3").fadeOut();
@@ -8,8 +9,11 @@ $(document).ready(function(){
     };
 
     $(".Menu-Element").click(function(){
+        //Get the ID of the clicked button
         var clickedID = $(this).attr('id');
 
+
+        //Fade out the appropriate article
         switch (clickedID) {
         case 'button1':
             hideAll();
@@ -28,6 +32,5 @@ $(document).ready(function(){
             $(".Article4").delay(200).fadeIn();
             break;
         }
-
     });
 });
