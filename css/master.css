@@ -47,7 +47,13 @@ footer {
     float: left;
     text-align: center;
     line-height: 75px;
+}
 
+#Logo {
+    height: 75px;
+}
+
+.Button {
     -webkit-transition: background-color 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out;
     -o-transition: background-color 0.5s ease-out;
@@ -59,7 +65,7 @@ footer {
     -o-transition:All 0.5s ease;
 }
 
-.Menu-Element:hover {
+.Button:hover {
     background-color: #23b54e; /* Background color for hover effect*/
     color: white;
     cursor: pointer;
