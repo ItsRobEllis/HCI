@@ -9,22 +9,54 @@ body {
     margin: 0 auto;
 
     background: #DDE;
-    border-top: 3px solid #0DD;
-    border-bottom: 3px solid #0DD;
+    border-top: 3px solid #23b54e;
+    border-bottom: 3px solid #23b54e;
     border-radius: 18px;
 }
 
 header{
 	width: inherit;
 	height: 75px;
+    position: absolute;
 }
 
 #Menu {
     max-height: 75px;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    border-bottom: 1px solid black;
 }
 
-#Menu-Element {
+.Menu-Element {
     width: 192px;
     height: 75px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 75px;
+
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+
+.Menu-Element:hover {
+    background-color: #23b54e; /* Background color for hover effect*/
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+
+    transform: scale(1.2) skew(1deg) translate(0px);
+    -webkit-transform: scale(1.2) skew(1deg) translate(0px);
+    -moz-transform: scale(1.2) skew(1deg) translate(0px);
+    -o-transform:scale(1.2) skew(1deg) translate(0px);
+    -ms-transform: scale(1.2) skew(1deg) translate(0px);
 }
