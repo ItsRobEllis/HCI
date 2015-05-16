@@ -69,7 +69,9 @@ footer {
     background-color: #23b54e; /* Background color for hover effect*/
     color: white;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 30px;
+
+    border-radius: 15px;
 
     transform: scale(1.2) skew(1deg) translate(0px);
     -webkit-transform: scale(1.2) skew(1deg) translate(0px);
