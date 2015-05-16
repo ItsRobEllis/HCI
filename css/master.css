@@ -14,6 +14,15 @@ body {
     border-radius: 18px;
 }
 
+#wrap-body {
+    top: 90px;
+    height: 650px;
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
 header{
 	width: inherit;
 	height: 75px;
@@ -79,3 +88,8 @@ footer {
     -o-transform:scale(1.2) skew(1deg) translate(0px);
     -ms-transform: scale(1.2) skew(1deg) translate(0px);
 }
+
+.Article1{}
+.Article2{display: none;}
+.Article3{display: none;}
+.Article4{display: none;}
